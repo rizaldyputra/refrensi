@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">projek_patukang</string>
+    <string name="title_activity_beranda">Beranda</string>
+
+    <array name="Keahlian">
+        <item>Tukang Alumunium</item>
+        <item>Tukang Atap</item>
+        <item>Tukang Cat</item>
+        <item>Tukang Keramik</item>
+    </array>
+
+    <array name="No_Rek">
+        <item>BCA : 9845-3356-1564-9631</item>
+        <item>BRI : 1845-2356-2564-8632p</item>
+        <item>BNI : 2845-3356-3564-7633t</item>
+        <item>Mandiri : 3845-4356-4564-6634</item>
+        <item>Lainnya : 4845-5356-5564-5635</item>
+    </array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+</resources>

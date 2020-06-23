@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dwibagus.projek_patukang">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:label="Pa-Tukang"
+        android:icon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".resetpwd"></activity>
+        <activity android:name=".detail_sewa" />
+        <activity android:name=".lupapwd" />
+        <activity android:name=".cat" />
+        <activity android:name=".keramik" />
+        <activity android:name=".atap" />
+        <activity android:name=".alumunium" />
+        <activity android:name=".terendah" />
+        <activity android:name=".hasil_cari" />
+        <activity android:name=".bayar_sewa" />
+        <activity
+            android:name=".beranda"
+            android:label="@string/title_activity_beranda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".beri_rating" />
+        <activity android:name=".tukang" />
+        <activity android:name=".penyewaan" />
+        <activity android:name=".detail_tukang" />
+        <activity
+            android:name=".daftar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

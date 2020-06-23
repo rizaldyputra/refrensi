@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_menu1">
+
+    <fragment
+        android:id="@+id/nav_menu1"
+        android:name="com.dwibagus.projek_patukang.ui.menu1.menu1Fragment"
+        android:label="Beranda"
+        tools:layout="@layout/fragment_menu1" />
+
+    <fragment
+        android:id="@+id/nav_menu2"
+        android:name="com.dwibagus.projek_patukang.ui.menu2.menu2Fragment"
+        android:label="Pesanan Customer"
+        tools:layout="@layout/fragment_menu2" />
+
+    <fragment
+        android:id="@+id/nav_menu3"
+        android:name="com.dwibagus.projek_patukang.ui.menu3.menu3Fragment"
+        android:label="Profil Customer"
+        tools:layout="@layout/fragment_menu3" />
+
+    <fragment
+        android:id="@+id/nav_menu4"
+        android:name="com.dwibagus.projek_patukang.ui.menu4.menu4Fragment"
+        android:label="Tukang"
+        tools:layout="@layout/fragment_menu4" />
+
+    <fragment
+        android:id="@+id/nav_menu5"
+        android:name="com.dwibagus.projek_patukang.ui.menu5.menu5Fragment"
+        android:label="Daftar Tukang"
+        tools:layout="@layout/fragment_menu5" />
+
+</navigation>

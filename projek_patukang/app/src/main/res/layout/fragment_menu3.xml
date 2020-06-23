@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.menu3.menu3Fragment">
+
+   <LinearLayout
+       android:layout_marginTop="10dp"
+       android:layout_gravity="center_vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+      <LinearLayout
+          android:layout_gravity="center_horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="250dp"
+          android:layout_marginTop="10dp"
+          android:orientation="vertical">
+
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="150dp"
+             android:layout_gravity="center_horizontal"
+             android:layout_marginTop="15dp"
+             android:src="@drawable/logo"
+             android:elevation="5dp"
+             android:id="@+id/foto_cus"
+             android:layout_marginBottom="10dp"/>
+
+         <RelativeLayout
+             android:layout_marginTop="5dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal">
+            <Button
+                android:id="@+id/pilihgambar"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:background="@drawable/stylebutton"
+                android:text="Edit"
+                android:layout_marginRight="20dp"
+                android:textColor="#ffff"/>
+
+            <Button
+                android:id="@+id/savegambar"
+                android:layout_toRightOf="@+id/pilihgambar"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/stylebutton"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:text="Simpan"
+                android:textColor="#ffff"/>
+         </RelativeLayout>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_marginTop="10dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:paddingLeft="25dp">
+
+         <ImageView
+             android:layout_width="36dp"
+             android:layout_height="36dp"
+             android:src="@drawable/ic_person_outline_black_24dp" />
+
+         <com.google.android.material.textfield.TextInputLayout
+             android:id="@+id/nam_leng"
+             android:layout_width="match_parent"
+             android:layout_height="69dp"
+             android:paddingRight="40dp"
+             android:layout_below="@+id/textView"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal"
+             >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtnam_leng"
+                android:paddingRight="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:paddingLeft="15dp" />
+         </com.google.android.material.textfield.TextInputLayout>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:paddingLeft="25dp">
+
+         <ImageView
+             android:layout_width="36dp"
+             android:layout_height="36dp"
+             android:src="@drawable/ic_location_on_black_24dp" />
+
+         <com.google.android.material.textfield.TextInputLayout
+             android:id="@+id/alamat"
+             android:layout_width="match_parent"
+             android:paddingRight="40dp"
+             android:layout_height="69dp"
+             android:layout_gravity="center_horizontal"
+             >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtlokasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:paddingLeft="15dp"
+                />
+         </com.google.android.material.textfield.TextInputLayout>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:orientation="horizontal"
+          android:paddingLeft="25dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+         <ImageView
+             android:layout_width="36dp"
+             android:layout_height="36dp"
+             android:src="@drawable/ic_phone_black_24dp"/>
+
+         <com.google.android.material.textfield.TextInputLayout
+             android:id="@+id/no_telp"
+             android:layout_width="match_parent"
+             android:paddingRight="40dp"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal"
+             android:layout_below="@+id/textView"
+             >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="15dp"
+                android:id="@+id/txtno_telp"
+                android:ems="10"/>
+         </com.google.android.material.textfield.TextInputLayout>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_marginTop="10dp"
+          android:orientation="horizontal"
+          android:paddingLeft="25dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+         <ImageView
+             android:layout_width="36dp"
+             android:layout_height="36dp"
+             android:src="@drawable/ic_email_black_24dp"/>
+         <com.google.android.material.textfield.TextInputLayout
+
+             android:id="@+id/email"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal"
+             android:layout_below="@+id/textView"
+             android:paddingRight="40dp"
+             >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="15dp"
+                android:id="@+id/txtemail"
+                android:ems="10"/>
+         </com.google.android.material.textfield.TextInputLayout>
+
+      </LinearLayout>
+
+      <Button
+          android:background="@drawable/stylebutton"
+          android:id="@+id/edit"
+          android:layout_width="250dp"
+          android:layout_height="50dp"
+          android:textSize="15dp"
+          android:layout_gravity="center"
+          android:layout_marginTop="10dp"
+          android:text="Simpan Perubahan"
+          android:textColor="#ffff"
+          android:textStyle="bold"
+          android:layout_marginBottom="10dp"/>
+
+   </LinearLayout>
+
+
+</ScrollView>

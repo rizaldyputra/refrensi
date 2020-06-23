@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".alumunium"
+    app:cardCornerRadius="4dp"
+    android:layout_marginTop="5dp"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="160dp">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="130dp"
+            android:src="@drawable/logo"
+            android:layout_marginRight="10dp"
+            android:id="@+id/foto_tukang"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_toRightOf="@id/foto_tukang"
+            android:id="@+id/lay"
+            android:layout_marginBottom="5dp"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:layout_height="130dp">
+
+            <TextView
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:id="@+id/namatukang"/>
+
+            <TextView
+                android:textColor="#000"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:id="@+id/Keahliantukang"/>
+
+            <TextView
+                android:textColor="#000"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:id="@+id/hargatukang"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/stylebutton"
+            android:text="Sewa"
+            android:id="@+id/btn_sewa"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".daftar"
+    android:background="#ffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:hint="DAFTAR SEKARANG"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="UNTUK DAPATKAN TUKANG TERBAIKMU"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/nam_lengr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textView"
+            app:hintAnimationEnabled="false"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:hint="Nama Lengkap"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="15dp"
+                android:id="@+id/txtnam_leng"
+                android:ems="10"
+                android:inputType="textPersonName"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/no_telpr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="5dp"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:hint="No. Telp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="15dp"
+                android:id="@+id/txtno_telp"
+                android:ems="10"
+                android:inputType="textPhonetic"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/alamatr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:hint="Alamat"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="15dp"
+                android:id="@+id/txtalamat"
+                android:ems="10"
+                android:inputType="text"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:hint="Email"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="15dp"
+                android:id="@+id/txtemail"
+                android:ems="10"
+                android:inputType="textEmailAddress"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="5dp"
+            app:endIconMode="password_toggle"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:hint="Password"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="15dp"
+                android:id="@+id/txtpassword"
+                android:ems="10"
+                android:inputType="textPassword"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/daftarr"
+            android:background="@drawable/stylebutton"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Daftar Sekarang"
+            android:textColor="#ffff"
+            android:textAllCaps="false"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
